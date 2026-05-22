@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 -->
 
+## [3.1.3] - 2026-05-12
+### Fixed
+* Correct `bSize` encoding for HID short items. (tx @dumitory-dev!)
+* Update for annotation changes in Python 3.14
+### Changed
+* Removed remaining imports from Python 2 -> 3 migration.
+
+
+
 ## [3.1.2] - 2025-12-05
 ### Fixed
 * FTDI emulation stopped working with recent Windows releases. (tx @gniezen!)
@@ -134,7 +143,8 @@ Any future bug-fixes or backports to Facedancer `2.9.x` should use the [`v2.9.x 
 - The current Facedancer core will be supersed by the implementation in `future/` with the `v3.0` release.
 
 
-[Unreleased]: https://github.com/greatscottgadgets/facedancer/compare/3.1.2...HEAD
+[Unreleased]: https://github.com/greatscottgadgets/facedancer/compare/3.1.3...HEAD
+[3.1.3]: https://github.com/greatscottgadgets/facedancer/compare/3.1.2...3.1.3
 [3.1.2]: https://github.com/greatscottgadgets/facedancer/compare/3.1.1...3.1.2
 [3.1.1]: https://github.com/greatscottgadgets/facedancer/compare/3.1.0...3.1.1
 [3.1.0]: https://github.com/greatscottgadgets/facedancer/compare/3.0.6...3.1.0
